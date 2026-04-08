@@ -1,4 +1,4 @@
-# 📏 Gauge Meter Recognition
+# Gauge Meter Recognition
 
 [![Python](https://img.shields.io/badge/python-3.6+-blue.svg)](https://www.python.org/)
 [![OpenCV](https://img.shields.io/badge/opencv-4.x-green.svg)](https://opencv.org/)
@@ -51,15 +51,26 @@
 - **标准化输出**：将角度转换为0-100的标准化读数（保留一位小数）
 
 ## 环境要求
-
 - Python 3.6+
 - OpenCV 4.x
 - NumPy
 
+## 项目结构
+
+| 文件 | 说明 |
+|------|------|
+| `20257007-李振-仪表识别实验.docx` | 实验报告文档 |
+| `test2.py` | 仪表识别主程序 |
+| `yibiao1.jpg` | 测试输入图像 |
+| `yibiao1_result.jpg` | 检测结果图像 |
+
+## 实验结果
+- 黄色圆圈：检测到的仪表盘轮廓
+- 红色指针：检测到的仪表指针位置
+- 红色数字：计算出的仪表读数（保留一位小数，范围0-100）
+
+![yibiao1_result](https://github.com/user-attachments/assets/6af2c2dc-6a9b-4372-8482-ddc64e4ebb7c)
 
 
 
 
-```bash
-git clone https://github.com/your-username/gauge-meter-recognition.git
-cd gauge-meter-recognition
